@@ -1,0 +1,17 @@
+{
+  "name": "awesome-agentic-engineering",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A practical map of tools, patterns, safety checks, and workflows for building software with coding agents.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-readme.mjs",
+    "check": "node scripts/validate.mjs",
+    "test": "node --test",
+    "smoke": "npm run build && git diff --exit-code README.md && npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "CC-BY-4.0"
+}

@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "Awesome Agentic Engineering",
+    "description": "A practical map of tools, patterns, safety checks, and workflows for building software with coding agents.",
+    "awesomeListAttribution": "Inspired by the awesome-list tradition popularized by sindresorhus/awesome; taxonomy, descriptions, and curation are original.",
+    "minimumDescriptionWords": 6
+  },
+  "categories": [
+    {
+      "id": "coding-agents",
+      "title": "Coding agents and agentic IDEs",
+      "description": "Tools that can inspect, edit, test, and iterate on software projects with varying levels of autonomy.",
+      "resources": [
+        {"name":"OpenAI Codex CLI","url":"https://github.com/openai/codex","description":"Terminal-based coding agent for delegating repository changes with reviewable diffs.","tags":["cli","coding-agent","terminal"]},
+        {"name":"Claude Code","url":"https://docs.anthropic.com/en/docs/claude-code","description":"Agentic command-line workflow for navigating codebases, changing files, and running verification loops.","tags":["cli","coding-agent","terminal"]},
+        {"name":"Aider","url":"https://github.com/Aider-AI/aider","description":"Pair-programming agent that edits local Git repositories through conversational requests.","tags":["cli","git","pair-programming"]},
+        {"name":"Cline","url":"https://github.com/cline/cline","description":"VS Code agent extension focused on tool use, file edits, browser actions, and task execution.","tags":["vscode","coding-agent","extension"]},
+        {"name":"Roo Code","url":"https://github.com/RooVetGit/Roo-Code","description":"VS Code coding agent with configurable modes for planning, implementation, debugging, and review.","tags":["vscode","coding-agent","modes"]},
+        {"name":"Continue","url":"https://github.com/continuedev/continue","description":"Open-source AI code assistant framework for chat, autocomplete, and custom model workflows.","tags":["ide","assistant","open-source"]},
+        {"name":"Cursor","url":"https://www.cursor.com/","description":"AI-first editor combining codebase-aware chat, inline edits, and agentic implementation workflows.","tags":["editor","coding-agent","commercial"]},
+        {"name":"Windsurf","url":"https://windsurf.com/","description":"Agentic development environment built around codebase context and multi-step software changes.","tags":["editor","coding-agent","commercial"]}
+      ]
+    },
+    {
+      "id": "agent-frameworks",
+      "title": "Agent frameworks and orchestration",
+      "description": "Libraries and runtimes for building agents that plan, call tools, maintain state, and coordinate work.",
+      "resources": [
+        {"name":"LangGraph","url":"https://github.com/langchain-ai/langgraph","description":"Graph-based framework for stateful, controllable agents with durable execution patterns.","tags":["framework","orchestration","state"]},
+        {"name":"AutoGen","url":"https://github.com/microsoft/autogen","description":"Framework for composing multi-agent conversations, tool calls, and human-in-the-loop workflows.","tags":["framework","multi-agent","microsoft"]},
+        {"name":"CrewAI","url":"https://github.com/crewAIInc/crewAI","description":"Python framework for role-based agent teams, tasks, delegation, and process-oriented automation.","tags":["framework","multi-agent","python"]},
+        {"name":"Pydantic AI","url":"https://github.com/pydantic/pydantic-ai","description":"Python agent framework emphasizing typed outputs, dependency injection, and production-friendly validation.","tags":["framework","python","typed"]},
+        {"name":"OpenAI Agents SDK","url":"https://github.com/openai/openai-agents-python","description":"SDK for building agents with handoffs, guardrails, tracing, and structured tool execution.","tags":["sdk","python","guardrails"]},
+        {"name":"Semantic Kernel","url":"https://github.com/microsoft/semantic-kernel","description":"SDK for connecting prompts, planners, memory, and plugins into enterprise AI applications.","tags":["sdk","orchestration","microsoft"]},
+        {"name":"LlamaIndex","url":"https://github.com/run-llama/llama_index","description":"Data and agent framework for retrieval-heavy applications over documents, tools, and knowledge sources.","tags":["retrieval","framework","data"]}
+      ]
+    },
+    {
+      "id": "protocols-tools",
+      "title": "Protocols, tools, and context plumbing",
+      "description": "Standards and utilities that make tool access, repository context, and runtime capabilities explicit.",
+      "resources": [
+        {"name":"Model Context Protocol","url":"https://github.com/modelcontextprotocol","description":"Open protocol for connecting AI systems to tools, data sources, prompts, and resources.","tags":["protocol","tools","context"]},
+        {"name":"OpenAPI Specification","url":"https://github.com/OAI/OpenAPI-Specification","description":"API description standard that helps agents understand available HTTP operations and schemas.","tags":["api","schema","tools"]},
+        {"name":"JSON Schema","url":"https://json-schema.org/","description":"Vocabulary for declaring structured data contracts used by tool inputs and agent outputs.","tags":["schema","validation","contracts"]},
+        {"name":"Tree-sitter","url":"https://github.com/tree-sitter/tree-sitter","description":"Incremental parsing toolkit useful for building reliable code navigation and context extraction.","tags":["parsing","code-intelligence","context"]},
+        {"name":"ast-grep","url":"https://github.com/ast-grep/ast-grep","description":"Structural search and rewrite tool that gives agents safer code modification primitives.","tags":["codemod","search","safety"]},
+        {"name":"Sourcegraph Cody","url":"https://sourcegraph.com/cody","description":"Codebase-aware assistant backed by Sourcegraph search and repository intelligence capabilities.","tags":["code-search","context","assistant"]}
+      ]
+    },
+    {
+      "id": "verification-evaluation",
+      "title": "Verification, evaluation, and observability",
+      "description": "Systems for proving agent work, measuring quality, replaying traces, and catching regressions early.",
+      "resources": [
+        {"name":"OpenTelemetry","url":"https://github.com/open-telemetry/opentelemetry-specification","description":"Observability standard for traces, metrics, and logs across agent and application runtimes.","tags":["observability","tracing","standard"]},
+        {"name":"LangSmith","url":"https://www.langchain.com/langsmith","description":"Platform for tracing, evaluating, and monitoring LLM application and agent behavior.","tags":["evaluation","tracing","monitoring"]},
+        {"name":"Arize Phoenix","url":"https://github.com/Arize-ai/phoenix","description":"Open-source observability and evaluation tooling for LLM applications, embeddings, and agents.","tags":["evaluation","observability","open-source"]},
+        {"name":"promptfoo","url":"https://github.com/promptfoo/promptfoo","description":"Testing framework for prompts, models, and agent outputs using repeatable eval suites.","tags":["testing","evals","prompts"]},
+        {"name":"OpenAI Evals","url":"https://github.com/openai/evals","description":"Framework and registry for evaluating model behavior with reproducible task definitions.","tags":["evals","benchmarking","openai"]},
+        {"name":"DeepEval","url":"https://github.com/confident-ai/deepeval","description":"LLM evaluation framework for correctness, faithfulness, regression tests, and CI checks.","tags":["evals","testing","ci"]},
+        {"name":"SWE-bench","url":"https://github.com/SWE-bench/SWE-bench","description":"Benchmark for evaluating systems that solve real software engineering issues from repositories.","tags":["benchmark","software-engineering","agents"]}
+      ]
+    },
+    {
+      "id": "safety-governance",
+      "title": "Safety, governance, and secure execution",
+      "description": "Practices and tools for sandboxing, secret hygiene, dependency risk, and human approval boundaries.",
+      "resources": [
+        {"name":"OpenSSF Scorecard","url":"https://github.com/ossf/scorecard","description":"Automated checks for open-source project security posture and supply-chain hygiene.","tags":["security","supply-chain","scorecard"]},
+        {"name":"gitleaks","url":"https://github.com/gitleaks/gitleaks","description":"Secret scanning tool that helps prevent credentials from leaking through agent-generated commits.","tags":["secrets","security","git"]},
+        {"name":"Semgrep","url":"https://github.com/semgrep/semgrep","description":"Static analysis engine for finding vulnerabilities and enforcing code patterns across languages.","tags":["sast","security","policy"]},
+        {"name":"OSV-Scanner","url":"https://github.com/google/osv-scanner","description":"Vulnerability scanner using OSV data to check dependencies, lockfiles, SBOMs, and containers.","tags":["vulnerabilities","dependencies","scanner"]},
+        {"name":"Sigstore Cosign","url":"https://github.com/sigstore/cosign","description":"Artifact signing and verification tooling for strengthening provenance in automated release pipelines.","tags":["signing","provenance","supply-chain"]},
+        {"name":"GitHub Actions permissions","url":"https://docs.github.com/en/actions/security-guides/automatic-token-authentication","description":"Documentation for limiting workflow token privileges and reducing blast radius for CI automation.","tags":["github-actions","permissions","ci"]}
+      ]
+    },
+    {
+      "id": "workflows-patterns",
+      "title": "Workflow patterns and operator playbooks",
+      "description": "Concrete ways to use agents responsibly inside real repositories and delivery processes.",
+      "resources": [
+        {"name":"Stacked Git worktrees","url":"https://git-scm.com/docs/git-worktree","description":"Git feature that supports isolated agent workspaces without dirtying established checkouts.","tags":["git","worktrees","isolation"]},
+        {"name":"Conventional Commits","url":"https://www.conventionalcommits.org/","description":"Commit message convention that makes agent changes easier to review, release, and audit.","tags":["commits","release","review"]},
+        {"name":"Keep a Changelog","url":"https://keepachangelog.com/","description":"Human-readable changelog format useful for summarizing agent-produced changes clearly.","tags":["changelog","release","documentation"]},
+        {"name":"Architecture Decision Records","url":"https://adr.github.io/","description":"Lightweight decision records that preserve why an agent-assisted design choice was made.","tags":["architecture","documentation","decisions"]},
+        {"name":"Google Engineering Practices Review Guide","url":"https://google.github.io/eng-practices/review/","description":"Practical review guidance that translates well to human review of agent-generated patches.","tags":["review","quality","process"]},
+        {"name":"GitHub Pull Request Reviews","url":"https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests","description":"Review workflow documentation for structuring approvals, comments, and merge readiness.","tags":["review","github","collaboration"]}
+      ]
+    },
+    {
+      "id": "roger-tools",
+      "title": "Roger's agentic engineering tools",
+      "description": "Local-first utilities from Roger's open-source ecosystem that support agent-led software delivery.",
+      "resources": [
+        {"name":"repoctx","url":"https://github.com/rogerchappel/repoctx","description":"Repository context generator for giving agents concise maps of code structure and project signals.","tags":["context","rogerchappel","cli"]},
+        {"name":"branchbrief","url":"https://github.com/rogerchappel/branchbrief","description":"Branch summary tool for reviewing diffs, commits, and change intent before handoff.","tags":["review","rogerchappel","git"]},
+        {"name":"taskbrief","url":"https://github.com/rogerchappel/taskbrief","description":"Task framing helper for turning ideas into clearer scoped work packages for agents.","tags":["planning","rogerchappel","workflow"]},
+        {"name":"workspacewire","url":"https://github.com/rogerchappel/workspacewire","description":"Workspace automation utility for coordinating repository state and agent-facing project metadata.","tags":["workspace","rogerchappel","automation"]}
+      ]
+    }
+  ]
+}
