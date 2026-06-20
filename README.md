@@ -66,6 +66,7 @@ Systems for proving agent work, measuring quality, replaying traces, and catchin
 - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-specification) — Observability standard for traces, metrics, and logs across agent and application runtimes.
 - [LangSmith](https://www.langchain.com/langsmith) — Platform for tracing, evaluating, and monitoring LLM application and agent behavior.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) — Open-source observability and evaluation tooling for LLM applications, embeddings, and agents.
+- [ax](https://github.com/Necmttn/ax) — Local agent-experience graph for coding agents that tracks transcripts, tool calls, skills, costs, routing, hooks, and recall.
 - [promptfoo](https://github.com/promptfoo/promptfoo) — Testing framework for prompts, models, and agent outputs using repeatable eval suites.
 - [OpenAI Evals](https://github.com/openai/evals) — Framework and registry for evaluating model behavior with reproducible task definitions.
 - [DeepEval](https://github.com/confident-ai/deepeval) — LLM evaluation framework for correctness, faithfulness, regression tests, and CI checks.
