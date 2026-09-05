@@ -53,6 +53,7 @@
       "title": "Verification, evaluation, and observability",
       "description": "Systems for proving agent work, measuring quality, replaying traces, and catching regressions early.",
       "resources": [
+        {"name":"Agent QA","url":"https://github.com/vostride/agent-qa","description":"Source-available web and mobile application testing that lets coding agents author, run, and inspect natural-language regression checks through CLI or MCP.","tags":["testing","mcp","source-available"]},
         {"name":"OpenTelemetry","url":"https://github.com/open-telemetry/opentelemetry-specification","description":"Observability standard for traces, metrics, and logs across agent and application runtimes.","tags":["observability","tracing","standard"]},
         {"name":"LangSmith","url":"https://www.langchain.com/langsmith","description":"Platform for tracing, evaluating, and monitoring LLM application and agent behavior.","tags":["evaluation","tracing","monitoring"]},
         {"name":"Arize Phoenix","url":"https://github.com/Arize-ai/phoenix","description":"Open-source observability and evaluation tooling for LLM applications, embeddings, and agents.","tags":["evaluation","observability","open-source"]},
