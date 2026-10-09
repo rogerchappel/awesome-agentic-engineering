@@ -47,6 +47,7 @@ Libraries and runtimes for building agents that plan, call tools, maintain state
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — SDK for building agents with handoffs, guardrails, tracing, and structured tool execution.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — SDK for connecting prompts, planners, memory, and plugins into enterprise AI applications.
 - [LlamaIndex](https://github.com/run-llama/llama_index) — Data and agent framework for retrieval-heavy applications over documents, tools, and knowledge sources.
+- [Tale](https://github.com/tale-project/tale) — Coordinate coding agents in persistent sandboxes with task delegation and review of their reports and deliverables.
 
 ## Protocols, tools, and context plumbing
 

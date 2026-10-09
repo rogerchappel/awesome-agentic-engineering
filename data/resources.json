@@ -32,7 +32,8 @@
         {"name":"Pydantic AI","url":"https://github.com/pydantic/pydantic-ai","description":"Python agent framework emphasizing typed outputs, dependency injection, and production-friendly validation.","tags":["framework","python","typed"]},
         {"name":"OpenAI Agents SDK","url":"https://github.com/openai/openai-agents-python","description":"SDK for building agents with handoffs, guardrails, tracing, and structured tool execution.","tags":["sdk","python","guardrails"]},
         {"name":"Semantic Kernel","url":"https://github.com/microsoft/semantic-kernel","description":"SDK for connecting prompts, planners, memory, and plugins into enterprise AI applications.","tags":["sdk","orchestration","microsoft"]},
-        {"name":"LlamaIndex","url":"https://github.com/run-llama/llama_index","description":"Data and agent framework for retrieval-heavy applications over documents, tools, and knowledge sources.","tags":["retrieval","framework","data"]}
+        {"name":"LlamaIndex","url":"https://github.com/run-llama/llama_index","description":"Data and agent framework for retrieval-heavy applications over documents, tools, and knowledge sources.","tags":["retrieval","framework","data"]},
+        {"name":"Tale","url":"https://github.com/tale-project/tale","description":"Coordinate coding agents in persistent sandboxes with task delegation and review of their reports and deliverables.","tags":["orchestration","coding-agents","review","self-hosted"]}
       ]
     },
     {
