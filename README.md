@@ -64,6 +64,7 @@ Standards and utilities that make tool access, repository context, and runtime c
 
 Systems for proving agent work, measuring quality, replaying traces, and catching regressions early.
 
+- [Agent QA](https://github.com/vostride/agent-qa) — Source-available web and mobile application testing that lets coding agents author, run, and inspect natural-language regression checks through CLI or MCP.
 - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-specification) — Observability standard for traces, metrics, and logs across agent and application runtimes.
 - [LangSmith](https://www.langchain.com/langsmith) — Platform for tracing, evaluating, and monitoring LLM application and agent behavior.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) — Open-source observability and evaluation tooling for LLM applications, embeddings, and agents.
