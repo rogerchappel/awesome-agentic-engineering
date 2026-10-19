@@ -18,7 +18,8 @@
         {"name":"Roo Code","url":"https://github.com/RooVetGit/Roo-Code","description":"VS Code coding agent with configurable modes for planning, implementation, debugging, and review.","tags":["vscode","coding-agent","modes"]},
         {"name":"Continue","url":"https://github.com/continuedev/continue","description":"Open-source AI code assistant framework for chat, autocomplete, and custom model workflows.","tags":["ide","assistant","open-source"]},
         {"name":"Cursor","url":"https://www.cursor.com/","description":"AI-first editor combining codebase-aware chat, inline edits, and agentic implementation workflows.","tags":["editor","coding-agent","commercial"]},
-        {"name":"Windsurf","url":"https://windsurf.com/","description":"Agentic development environment built around codebase context and multi-step software changes.","tags":["editor","coding-agent","commercial"]}
+        {"name":"Windsurf","url":"https://windsurf.com/","description":"Agentic development environment built around codebase context and multi-step software changes.","tags":["editor","coding-agent","commercial"]},
+        {"name":"YYLO","url":"https://github.com/yylo-dev/yylo","description":"Terminal coding-agent orchestrator that runs agent loops against a repository with typed task, validation, and merge boundaries plus run receipts.","tags":["cli","coding-agent","orchestration"]}
       ]
     },
     {
