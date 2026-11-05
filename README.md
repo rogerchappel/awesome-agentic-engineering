@@ -71,6 +71,7 @@ Systems for proving agent work, measuring quality, replaying traces, and catchin
 - [OpenAI Evals](https://github.com/openai/evals) — Framework and registry for evaluating model behavior with reproducible task definitions.
 - [DeepEval](https://github.com/confident-ai/deepeval) — LLM evaluation framework for correctness, faithfulness, regression tests, and CI checks.
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench) — Benchmark for evaluating systems that solve real software engineering issues from repositories.
+- [AUTOMATER.ai](https://automater.ai) — Desktop tray app that keeps sessions from many coding agents in one searchable library, flags agents waiting on input, and tracks usage across providers.
 
 ## Safety, governance, and secure execution
 

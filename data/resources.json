@@ -60,7 +60,8 @@
         {"name":"promptfoo","url":"https://github.com/promptfoo/promptfoo","description":"Testing framework for prompts, models, and agent outputs using repeatable eval suites.","tags":["testing","evals","prompts"]},
         {"name":"OpenAI Evals","url":"https://github.com/openai/evals","description":"Framework and registry for evaluating model behavior with reproducible task definitions.","tags":["evals","benchmarking","openai"]},
         {"name":"DeepEval","url":"https://github.com/confident-ai/deepeval","description":"LLM evaluation framework for correctness, faithfulness, regression tests, and CI checks.","tags":["evals","testing","ci"]},
-        {"name":"SWE-bench","url":"https://github.com/SWE-bench/SWE-bench","description":"Benchmark for evaluating systems that solve real software engineering issues from repositories.","tags":["benchmark","software-engineering","agents"]}
+        {"name":"SWE-bench","url":"https://github.com/SWE-bench/SWE-bench","description":"Benchmark for evaluating systems that solve real software engineering issues from repositories.","tags":["benchmark","software-engineering","agents"]},
+        {"name":"AUTOMATER.ai","url":"https://automater.ai","description":"Desktop tray app that keeps sessions from many coding agents in one searchable library, flags agents waiting on input, and tracks usage across providers.","tags":["observability","session-history","desktop"]}
       ]
     },
     {
