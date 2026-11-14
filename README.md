@@ -35,6 +35,7 @@ Tools that can inspect, edit, test, and iterate on software projects with varyin
 - [Continue](https://github.com/continuedev/continue) — Open-source AI code assistant framework for chat, autocomplete, and custom model workflows.
 - [Cursor](https://www.cursor.com/) — AI-first editor combining codebase-aware chat, inline edits, and agentic implementation workflows.
 - [Windsurf](https://windsurf.com/) — Agentic development environment built around codebase context and multi-step software changes.
+- [Althar](https://github.com/AltharIDE/althar) — Desktop ADE that turns requests into tasks, assigns coding agents, and has another model review the changes.
 
 ## Agent frameworks and orchestration
 
