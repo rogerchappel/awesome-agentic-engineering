@@ -54,6 +54,7 @@
       "title": "Verification, evaluation, and observability",
       "description": "Systems for proving agent work, measuring quality, replaying traces, and catching regressions early.",
       "resources": [
+        {"name":"Code Buster","url":"https://github.com/tool-bunker/code-buster","description":"Local repository analysis that gives coding agents concrete findings on dependency cycles, duplicated code, and architecture violations.","tags":["static-analysis","review","cli"]},
         {"name":"OpenTelemetry","url":"https://github.com/open-telemetry/opentelemetry-specification","description":"Observability standard for traces, metrics, and logs across agent and application runtimes.","tags":["observability","tracing","standard"]},
         {"name":"LangSmith","url":"https://www.langchain.com/langsmith","description":"Platform for tracing, evaluating, and monitoring LLM application and agent behavior.","tags":["evaluation","tracing","monitoring"]},
         {"name":"Arize Phoenix","url":"https://github.com/Arize-ai/phoenix","description":"Open-source observability and evaluation tooling for LLM applications, embeddings, and agents.","tags":["evaluation","observability","open-source"]},
