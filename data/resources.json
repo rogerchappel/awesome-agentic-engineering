@@ -46,7 +46,8 @@
         {"name":"JSON Schema","url":"https://json-schema.org/","description":"Vocabulary for declaring structured data contracts used by tool inputs and agent outputs.","tags":["schema","validation","contracts"]},
         {"name":"Tree-sitter","url":"https://github.com/tree-sitter/tree-sitter","description":"Incremental parsing toolkit useful for building reliable code navigation and context extraction.","tags":["parsing","code-intelligence","context"]},
         {"name":"ast-grep","url":"https://github.com/ast-grep/ast-grep","description":"Structural search and rewrite tool that gives agents safer code modification primitives.","tags":["codemod","search","safety"]},
-        {"name":"Sourcegraph Cody","url":"https://sourcegraph.com/cody","description":"Codebase-aware assistant backed by Sourcegraph search and repository intelligence capabilities.","tags":["code-search","context","assistant"]}
+        {"name":"Sourcegraph Cody","url":"https://sourcegraph.com/cody","description":"Codebase-aware assistant backed by Sourcegraph search and repository intelligence capabilities.","tags":["code-search","context","assistant"]},
+        {"name":"Open Agent API","url":"https://github.com/jiangxingfan1-coder/Open-Agent-API","description":"Self-hosted gateway for calling configured coding agents from applications through SDK-compatible APIs.","tags":["api","coding-agent","self-hosted"]}
       ]
     },
     {

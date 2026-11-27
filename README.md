@@ -59,6 +59,7 @@ Standards and utilities that make tool access, repository context, and runtime c
 - [Tree-sitter](https://github.com/tree-sitter/tree-sitter) — Incremental parsing toolkit useful for building reliable code navigation and context extraction.
 - [ast-grep](https://github.com/ast-grep/ast-grep) — Structural search and rewrite tool that gives agents safer code modification primitives.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) — Codebase-aware assistant backed by Sourcegraph search and repository intelligence capabilities.
+- [Open Agent API](https://github.com/jiangxingfan1-coder/Open-Agent-API) — Self-hosted gateway for calling configured coding agents from applications through SDK-compatible APIs.
 
 ## Verification, evaluation, and observability
 
